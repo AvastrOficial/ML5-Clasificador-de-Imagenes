@@ -4,9 +4,9 @@
    <!-- p5 -->
 > <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
   <!-- ml5 -->
-> <script src="https://unpkg.com/ml5@0.7.2/dist/ml5.min.js" type="text/javascript"></script>
+> <script src="https://unpkg.com/ml5@0.7.2/dist/ml5.min.js" ></script>
   <!-- Icon Google-->
-> <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+> <link href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <!-- Materialize -->
 > <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <!-- Se ve bien movil -->
