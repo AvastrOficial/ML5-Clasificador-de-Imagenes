@@ -1,0 +1,72 @@
+body {
+ height: 4px;
+  background: linear-gradient(to right, #6ADED3, #85C1E9);
+   zoom:60%
+}
+
+
+.wrapper::before {
+  content: "";
+  display: block;
+  position: fixed;
+  width: 300%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  border-radius: 100%;
+  transform: translateX(-50%) skewY(-8deg);
+  background-color: lightblue; /* Cambiar a azul celeste */
+  z-index: -1;
+  animation: wave 8s ease-in-out infinite alternate;
+}
+
+@keyframes wave {
+  0% {
+    transform: translateX(-50%) skewY(-8deg);
+  }
+  25% {
+    transform: translateX(-50%) skewY(8deg);
+  }
+  50% {
+    transform: translateX(-50%) skewY(-8deg);
+  }
+  75% {
+    transform: translateX(-50%) skewY(8deg);
+  }
+  100% {
+    transform: translateX(-50%) skewY(-8deg);
+  }
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 40px; /* Ajusta el ancho según el tamaño de tus íconos */
+  height: 40px; /* Ajusta la altura según el tamaño de tus íconos */
+  border-radius: 50%; /* Hace que los íconos sean circulares */
+  border: 2px solid #333; /* Borde de 2px sólido de color gris oscuro (#333) */
+  padding: 5px; /* Opcional: agrega un poco de espacio alrededor de los íconos */
+  box-sizing: border-box; /* Hace que el padding no afecte el tamaño total */
+  transition: transform 0.3s ease-in-out; /* Animación al pasar el cursor */
+}
+
+.social-icons img:hover {
+  transform: scale(1.1); /* Cambia el tamaño al pasar el cursor */
+}
+
+
+
+
+
+
+
+
