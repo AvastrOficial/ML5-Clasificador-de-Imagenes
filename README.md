@@ -9,10 +9,6 @@
   <-- ml5 -->
 > https://unpkg.com/ml5@0.7.2/dist/ml5.min.js
 <br></br>
-  <-- Icon Google-->
-> https://fonts.googleapis.com/icon?family=Material+Icons
- <br></br>
-  <-- Materialize -->
-> https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css
+
 # fotos de la herramieta web : 
 ![image](https://github.com/user-attachments/assets/7075479f-4c2b-42fb-b9ba-ebeaa16832e0)
